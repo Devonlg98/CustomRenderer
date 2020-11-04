@@ -1,0 +1,24 @@
+# vertex positions
+# x y z
+v -0.5f, -0.5f, 0, 1
+v 0.5f, -0.5f, 0, 1
+v 0,  0.5f, 0, 1
+
+# vertex normals
+# x y z
+vn 0.0 0.0 1.0
+vn 0.0 0.0 1.0
+vn 0.0 0.0 1.0
+
+# vertex texture coordates
+# u v
+vt 0.0 0.0
+vt 1.0 0.0
+vt 0.5 1.0
+
+# v/vn/vt
+# each component refers to an index in the above arrays of data
+# these arrays start from 1 -- meaning that the first element's index is 1 instead of 0
+#
+# each line defines a face
+f 3/3/3 1/1/1 2/2/2 
